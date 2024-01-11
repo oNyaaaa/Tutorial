@@ -19,9 +19,6 @@ Coding.Config.HudCircleFill -- Creates a circle with arguements draw in a HUDPai
 Coding.Config.EazyText -- Creates a Easy Text with arguements draw in a HUDPaint (text, x, y, fnt, col)
 Coding.Config.AnimatedText -- Creates Animated Text with arguements draw in a HUDPaint (id, text, x, y, fnt, col, times)
 
-Next Update:
-Added FindPlayer -- Arguements (name) returns Entity
-
 --My Test Code = lua_run_cl RefreshCode()
 -- I will update it over time to add more.
 -- Coding
