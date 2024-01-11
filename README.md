@@ -1,4 +1,4 @@
-/*
+
 Example Code Below
 Coding.Config.DFrame -- Same as Dframe with arguements (title, Pos =x , Pos = y, Width = w , Height = h)
 Coding.Config.DPanelMain(panel) -- Same as DPanel with arguements of (Panel)
@@ -21,8 +21,6 @@ Coding.Config.AnimatedText -- Creates Animated Text with arguements draw in a HU
 
 Next Update:
 Added FindPlayer -- Arguements (name) returns Entity
-
-*/
 
 --My Test Code = lua_run_cl RefreshCode()
 -- I will update it over time to add more.
