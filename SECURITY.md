@@ -10,4 +10,4 @@ Error(if one plicable):
 
 How to reproduce:
 
-Security vunrebility: 
+Security vulnerability: 
