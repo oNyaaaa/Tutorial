@@ -8,6 +8,7 @@ end
 hook.Add("GetFallDamage", "Allow Player No Damage", GetFallDamage)
 local function PlayerPickup(ply, ent)
     if ent.Holding == nil then ent.Holding = false end
+    if not ent.IsOwner and GetConVar("pp_propprotection") == 1 then return false end
     if ent.IsOwner and GetConVar("pp_propprotection") == 1 then return true end
     if ply:IsAdmin() and ent:GetClass():lower() == "player" then
         ent:SetLocalVelocity(ent:GetPos())
