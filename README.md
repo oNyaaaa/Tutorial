@@ -1,9 +1,9 @@
 
 Example Code Below
-Coding.Config.DFrame -- Same as Dframe with arguements (title, Pos =x , Pos = y, Width = w , Height = h)\n
-Coding.Config.DPanelMain(panel) -- Same as DPanel with arguements of (Panel)\n
-Coding.Config.DPanelPatch -- Same as DPanel with arguements(panel,x,y,w,h)\n
-Coding.Config.SheetAdd -- Creates a sheet (panel)\n
+Coding.Config.DFrame -- Same as Dframe with arguements (title, Pos =x , Pos = y, Width = w , Height = h)
+Coding.Config.DPanelMain(panel) -- Same as DPanel with arguements of (Panel)
+Coding.Config.DPanelPatch -- Same as DPanel with arguements(panel,x,y,w,h)
+Coding.Config.SheetAdd -- Creates a sheet (panel)
 Coding.Config.Sheet -- Creates a panel for the sheet(sheet, img)
 Coding.Config.DButton -- Creates a dbutton with arguements (panelx, x, y, w, h, text, clock_func) returns DButton
 Coding.Config.CheckBoxLabel-- Creates a CheckBox with a label with arguements (panel, x, y, text, convar, val, CheckTouch)
