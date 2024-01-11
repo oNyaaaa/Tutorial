@@ -19,6 +19,16 @@ Coding.Config.HudCircleFill -- Creates a circle with arguements draw in a HUDPai
 Coding.Config.EazyText -- Creates a Easy Text with arguements draw in a HUDPaint (text, x, y, fnt, col)
 Coding.Config.AnimatedText -- Creates Animated Text with arguements draw in a HUDPaint (id, text, x, y, fnt, col, times)
 
+Player: 
+Added Coding.Config.FindPlayer -- Arguements (name) returns Entity
+Added Console command so you can find the lua code eaiser:
+Console command: nyaaa_info
+Coding.Config.IgnitePlayer -- Arguements (targ,length,radius)
+e.g lua_run Coding.Config.IgnitePlayer("Nya",10,10)
+Coding.Config.KickPlayer -- Arguements (targ,reason)
+Added -- Allow admins to pick up players with no fall damage and smooth movement
+Added -- Fall damage is realism now -- mp_falldamage 0 = 0 fall damage / 1 = realism falll damage
+
 --My Test Code = lua_run_cl RefreshCode()
 -- I will update it over time to add more.
 -- Coding
