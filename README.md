@@ -1,5 +1,5 @@
 
-Example Code Below
+Example Code Below:
 Coding.Config.DFrame -- Same as Dframe with arguements (title, Pos =x , Pos = y, Width = w , Height = h)
 Coding.Config.DPanelMain(panel) -- Same as DPanel with arguements of (Panel)
 Coding.Config.DPanelPatch -- Same as DPanel with arguements(panel,x,y,w,h)
