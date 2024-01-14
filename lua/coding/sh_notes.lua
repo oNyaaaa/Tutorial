@@ -69,9 +69,7 @@ hook.Add("HUDPaint", "BigText", function() Coding.Config.EazyText("hello", 10, 1
 Player: 
 Added FindPlayer -- Arguements (name) returns Entity
 ]]
-
 local function info()
-
     print[[
         Example Code Below:
     Coding.Config.DFrame -- Same as Dframe with arguements (title, Pos =x , Pos = y, Width = w , Height = h)
@@ -95,7 +93,16 @@ local function info()
     
     Player:
     Added FindPlayer -- Arguements (name) returns Entity
-    ]]
+    Added Console command so you can find the lua code eaiser: 
+    Console command: nyaaa_info
+    Coding.Config.IgnitePlayer -- Arguements  (targ,length,radius) 
+    e.g lua_run Coding.Config.IgnitePlayer("Nya",10,10)
+    Coding.Config.KickPlayer  -- Arguements  (targ,reason)
+    Added -- Allow admins to pick up players with no fall damage and smooth movement
+    Added -- Fall damage is realism now -- mp_falldamage 0 = 0 fall damage / 1 = realism falll damage
+    Added -- Prop Protection -- Console Var: pp_propprotection 1 enable / 0 disable
 
+    ]]
 end
+
 concommand.Add("nyaaa_info", info)
