@@ -30,6 +30,9 @@ Added -- Allow admins to pick up players with no fall damage and smooth movement
 Added -- Fall damage is realism now -- mp_falldamage 0 = 0 fall damage / 1 = realism falll damage
 Added -- Prop Protection -- Console Var: pp_propprotection 1 enable / 0 disable
 
+Console Vars Server:
+timer_for_game 0 // 1 = enable / 0 = disable
+
 --My Test Code = lua_run_cl RefreshCode()
 -- I will update it over time to add more.
 -- Coding
